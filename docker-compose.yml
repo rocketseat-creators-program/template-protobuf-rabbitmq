@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  broker:
+    image: rabbitmq:3-management-alpine
+    hostname: broker
+    ports:
+      - "5672:5672"
+      - "8080:15672"
