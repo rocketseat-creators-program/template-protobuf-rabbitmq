@@ -6,14 +6,6 @@ Nesta aula vamos aprendemos como podemos tipar mensagens assíncronas e eventos 
 
 > __Atenção__: Este é o projeto template, se você está procurando o projeto de template, vá para [este repositório](https://github.com/rocketseat-experts-club/protobuf-rabbitmq)
 
-## Instalação
-
-1. Clone o repositório
-2. Instale as dependencias indo até as pastas `producer` e `consumer` e rodando `npm install`
-3. Na raiz do projeto, execute o comando `docker compose up -d` para iniciar o servidor do RabbitMQ
-4. Use o comando `source .envrc && npm run start:producer` para criar um produtor e `source .envrc && npm run start:consumer` para criar um consumidor
-5. Abra o navegador em `http://localhost:8080` faça login com o usuário `guest` e a senha `guest` para ver os status do broker
-
 ## Expert
 
 | [<img src="https://github.com/khaosdoctor.png" width="75px;"/>][1] |
